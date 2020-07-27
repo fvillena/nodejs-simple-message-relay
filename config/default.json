@@ -1,12 +1,11 @@
 {
     "server": {
-        "port": 3000,
         "address": "localhost"
     },
     "cors": {
         "origins": [ "*" ]
     },
     "demo_page": true,
-    "api_keys": [],
+    "api_keys": ["Gato"],
     "sockets": []
 }
