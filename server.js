@@ -6,6 +6,7 @@
 
 const
     config = require( 'config' ),
+    port = process.env.PORT || 3000
     corsMiddleware = require( 'restify-cors-middleware' ),
     errors = require( 'restify-errors' ),
     restify = require( 'restify' ),
