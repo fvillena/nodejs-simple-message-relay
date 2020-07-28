@@ -47,4 +47,4 @@ server.post( '/send/:socket', function( req, res, next ) {
 
 });
 
-server.listen( config.get( 'server.port' ), config.get( 'server.address' ), () => console.log( `Listening at ${server.url}` ) );
+server.listen( port, config.get( 'server.address' ), () => console.log( `Listening at ${server.url}` ) );
